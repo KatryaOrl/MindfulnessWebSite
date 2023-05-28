@@ -1,0 +1,78 @@
+main {
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(114, 35, 35);
+}
+
+header h1 {
+    color: bisque;
+}
+
+nav {
+    background-color: rgb(68, 20, 20);
+}
+
+nav li a {
+    color: bisque;
+}
+
+section.container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.image {
+    flex: 1 0 20%;
+    max-width: 20%;
+    min-height: 15%;
+    margin-right: 30px;
+}
+
+.image img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.text {
+    flex: 1 0 75%;
+    max-width: 75%;
+}
+
+.text h1 {
+    font-size: 36px;
+    margin: 0 0 20px;
+    color: rgb(160, 73, 73);
+}
+
+.text h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: rgb(160, 73, 73);
+}
+
+.text p {
+    font-size: 18px;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    color: rgb(160, 73, 73);
+}
+
+@media (max-width: 768px) {
+    .image {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .image img {
+        width: 80%;
+    }
+}

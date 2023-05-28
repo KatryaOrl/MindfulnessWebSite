@@ -1,0 +1,72 @@
+/* General Styles */
+body,
+html {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 100 px;
+    min-height: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(15, 20, 31);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    margin: 0;
+    background-color: rgb(21, 34, 59);
+}
+
+footer {
+    background-color: rgb(15, 20, 31);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+    border-radius: 20%;
+}

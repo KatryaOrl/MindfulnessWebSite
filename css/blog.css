@@ -1,0 +1,34 @@
+main {
+    margin: 100 px;
+}
+
+main section {
+    border-radius: 5px;
+    background-color: rgb(21, 34, 59);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(15, 20, 31);
+    position: relative;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+/* Just a funny feature to have :) */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+}
